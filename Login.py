@@ -20,6 +20,7 @@ password_input.send_keys( "Tayamot02")
 login_button = wait.until(EC.element_to_be_clickable((By.NAME, "login")))
 login_button.click()
 
+
 try:
     print("Login successfully!")
 except:
@@ -30,3 +31,4 @@ time.sleep(30)
 driver.quit()
 #initial commit
 #second commit
+git add -u
